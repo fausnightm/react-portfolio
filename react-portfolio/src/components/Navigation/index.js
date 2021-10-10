@@ -1,31 +1,31 @@
 import React from "react";
-// import About from "../pages/About";
-// import Contact from "../pages/Contact";
-// import Portfolio from '../pages/Portfolio';
-// import Resume from '../pages/Resume';
-// import Header from "../Header";
 
 function Navigation(props) {
-    const tabs = ['About', 'Contact', 'Portfolio', 'Resume'];
-    return (
-        <ul className="nav nav-tabs">
-          {tabs.map(tab => (
-            <li className="nav-item" key={tab}>
-              <a
-                href={'#' + tab.toLowerCase()}
-                // Whenever a tab is clicked on,
-                // the current page is set through the handlePageChange props.
-                onClick={() => props.setCurrentTab(tab)}
-                className={
-                  props.currentTab === tab ? 'navActive' : 'nav-link'
-                }
-              >
-                {tab}
-              </a>
-            </li>
-          ))}
-        </ul>
-      );
+	const { currentTab, setCurrentTab } = props;
+
+	return (
+		<nav>
+			<ul className="flex-row mobile-view">
+
+				<li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("about")}>About Me</span>
+				</li>
+
+				<li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
+				</li>
+
+				<li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("contact")}>Contact</span>
+				</li>
+
+				<li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("resume")}>Resume</span>
+				</li>
+				
+			</ul>
+		</nav>
+	);
 }
 
 export default Navigation;

@@ -1,42 +1,19 @@
-import React, { useState } from 'react';
-import Navigation from '../Navigation';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Portfolio from '../pages/Portfolio';
-import Resume from '../pages/Resume';
+import React from "react";
+import Navigation from "../Navigation";
 
+function Header(props) {
+	const { currentTab, setCurrentTab } = props;
 
-function Header() {
-    const { currentTab, setCurrentTab } = useState();
-
-    const renderPage = () => {
-        switch (currentTab) {
-        //   case 'About':
-        //     return <About />;
-          case 'Contact':
-            return <Contact />;
-          case 'Portfolio':
-            return <Portfolio />;          
-          case 'Resume':
-            return <Resume />;
-          default:
-            return <About />;
-        }
-      };
-
-    return (
-        <div>
-            <header>
-                <div>
-                    <h1 id="header">Max Fausnight</h1>
-                </div>
-                <div>
-                    <Navigation currentTab = { currentTab } setCurrentTab = { setCurrentTab }/>
-                </div>
-            </header>
-            <div>{renderPage(currentTab)}</div>
-        </div>
-    );
+	return (
+		<header>
+			<div>
+				<h2>Max Fausnight</h2>
+			</div>
+			<div>
+				<Navigation currentTab={currentTab} setCurrentTab={setCurrentTab}/>
+			</div>
+		</header>
+	);
 }
 
 export default Header;
