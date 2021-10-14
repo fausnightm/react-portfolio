@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b165ed4f.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.10c520bf.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.10c520bf.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.fedfbab5.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fedfbab5.js.map",
+    "static/js/2.7897b2eb.chunk.js": "/react-portfolio/static/js/2.7897b2eb.chunk.js",
+    "static/js/2.7897b2eb.chunk.js.map": "/react-portfolio/static/js/2.7897b2eb.chunk.js.map",
+    "static/js/3.8e286011.chunk.js": "/react-portfolio/static/js/3.8e286011.chunk.js",
+    "static/js/3.8e286011.chunk.js.map": "/react-portfolio/static/js/3.8e286011.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.b165ed4f.chunk.css.map": "/react-portfolio/static/css/main.b165ed4f.chunk.css.map",
+    "static/js/2.7897b2eb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7897b2eb.chunk.js.LICENSE.txt",
+    "static/media/Fausnight, Max_Resume.pdf": "/react-portfolio/static/media/Fausnight, Max_Resume.c1e67cb0.pdf",
+    "static/media/budget-tracker-2.17ef4b22.jpeg": "/react-portfolio/static/media/budget-tracker-2.17ef4b22.jpeg",
+    "static/media/max-3.9d6b616d.jpeg": "/react-portfolio/static/media/max-3.9d6b616d.jpeg",
+    "static/media/max-5.4e0a2693.jpeg": "/react-portfolio/static/media/max-5.4e0a2693.jpeg",
+    "static/media/puppy-2.2b794e00.jpg": "/react-portfolio/static/media/puppy-2.2b794e00.jpg",
+    "static/media/tech-blog-2.8b00fc3a.jpeg": "/react-portfolio/static/media/tech-blog-2.8b00fc3a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fedfbab5.js",
+    "static/js/2.7897b2eb.chunk.js",
+    "static/css/main.b165ed4f.chunk.css",
+    "static/js/main.10c520bf.chunk.js"
+  ]
+}
