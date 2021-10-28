@@ -37,12 +37,21 @@ function Portfolio() {
 		},
 		{
 			name: 'Budget Tracker',
-			description:
-				'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience while managing their finances and budgeting no matter where they are.',
+			description:				
+			'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience while managing their finances and budgeting no matter where they are.',
 			image: '../../../assets/images/projects/budget/budget-tracker-2.jpeg',
 			technologies: ['JavaScript','MongoDB','IndexedDB & Service Workers','Node.js','Express'],
 			github: 'https://github.com/fausnightm/budget-tracker',
 			deployed: 'https://polar-thicket-33051.herokuapp.com/',
+		},
+		{
+			name: 'Stock Watch',
+			description:
+				'Stock-Watch is a stock purchasing assistant for prospective investors. You can search, save, and delete different stocks from your portfolio.',
+			image: '../../../assets/images/projects/budget/team-2.jpeg',
+			technologies: ['JavaScript','MongoDB','IndexedDB & Service Workers','Node.js','Express'],
+			github: 'https://github.com/awolrob/stock-watch',
+			deployed: 'stockwatch.live',
 		},
 
 	];
@@ -81,14 +90,14 @@ function Portfolio() {
 						</div>
 					</li>
 				</ul>
-				{/* <ul className="flex-row mobile-row">
-					<li className="padding">
-						<Project projects={projects[4]}></Project>
+				<ul className="row mobile-row">
+				<li className="col-6 padding">
+						<div className="col-12 col-sm">
+							<img src={image5} alt= "National Park" />
+							<Project projects={projects[5]}></Project>
+						</div>
 					</li>
-					<li className="padding">
-						<Project projects={projects[5]}></Project>
-					</li>
-				</ul> */}
+				</ul>
 			</div>
 		</section>
 	);
